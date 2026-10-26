@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice"><defs>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0a10"/><stop offset=".5" stop-color="#2a2420"/><stop offset="1" stop-color="#0b0807"/></linearGradient>
+<radialGradient id="l" cx=".28" cy=".12" r=".4"><stop offset="0" stop-color="#e6b676" stop-opacity=".75"/><stop offset="1" stop-color="#e6b676" stop-opacity="0"/></radialGradient>
+<filter id="b"><feGaussianBlur stdDeviation="18"/></filter>
+
+<g id="dragon" transform="translate(45,38) scale(.8)">
+  <path d="M-45,-12 C-20,-20 20,-26 50,-24 C65,-30 72,-45 85,-50 L112,-46 L108,-38 L90,-34 C80,-28 70,-12 55,-2 C30,10 0,14 -30,12 C-70,14 -110,34 -150,26 C-190,20 -200,40 -218,32 C-195,52 -150,46 -105,38 C-70,32 -50,12 -45,-12 Z"/>
+  <path d="M88,-50 L66,-76 L96,-52 Z M80,-47 L56,-62 L90,-45 Z"/>
+  <path d="M5,-8 L-50,-128 L-56,-92 L-98,-98 L-82,-62 L-124,-56 L-92,-34 L-46,-12 Z"/>
+  <path opacity=".75" d="M40,-24 L22,-96 L20,-72 L-8,-80 L4,-54 L-18,-46 L10,-32 Z"/>
+  <path d="M-5,10 L-14,36 L2,31 L10,12 Z M25,8 L22,30 L36,26 L40,6 Z"/>
+  <path d="M-40,-14 L-34,-24 L-28,-14 M-18,-18 L-12,-28 L-6,-18 M6,-22 L12,-32 L18,-22" />
+</g>
+
+</defs>
+<rect width="1600" height="1000" fill="url(#s)"/>
+<rect width="1600" height="1000" fill="url(#l)"/>
+<ellipse cx="517" cy="206" rx="210" ry="23" fill="#d7b88a" opacity="0.11" filter="url(#b)"/>
+<ellipse cx="235" cy="189" rx="281" ry="33" fill="#d7b88a" opacity="0.22" filter="url(#b)"/>
+<ellipse cx="487" cy="114" rx="302" ry="36" fill="#d7b88a" opacity="0.17" filter="url(#b)"/>
+<ellipse cx="4" cy="183" rx="167" ry="31" fill="#d7b88a" opacity="0.10" filter="url(#b)"/>
+<ellipse cx="391" cy="299" rx="373" ry="28" fill="#d7b88a" opacity="0.11" filter="url(#b)"/>
+<ellipse cx="658" cy="100" rx="182" ry="33" fill="#d7b88a" opacity="0.19" filter="url(#b)"/>
+<ellipse cx="1093" cy="280" rx="212" ry="23" fill="#d7b88a" opacity="0.11" filter="url(#b)"/>
+<ellipse cx="165" cy="142" rx="338" ry="33" fill="#d7b88a" opacity="0.21" filter="url(#b)"/>
+<ellipse cx="1219" cy="400" rx="297" ry="18" fill="#d7b88a" opacity="0.09" filter="url(#b)"/>
+<path d="M-10,730 L-10.0,169.7 L122.0,172.0 L262.0,204.3 L355.9,198.3 L491.5,167.6 L652.2,149.1 L750.9,169.4 L914.6,149.8 L1022.5,177.7 L1178.4,170.3 L1301.0,182.6 L1436.1,215.7 L1592.6,217.9 L1732.7,185.7 L1610,730 Z" fill="#1a1613" opacity=".9"/>
+<g transform="translate(430,330) scale(2.2)" fill="#0d0a09"><rect x="-40" y="-62" width="14" height="62"/><polygon points="-42,-62 -33.0,-84.4 -24,-62"/><rect x="-20" y="-96" width="20" height="96"/><polygon points="-22,-96 -10.0,-128.0 2,-96"/><rect x="6" y="-74" width="16" height="74"/><polygon points="4,-74 14.0,-99.6 24,-74"/><rect x="26" y="-48" width="12" height="48"/><rect x="24" y="-52" width="16" height="5"/><rect x="-55" y="-26" width="120" height="30"/></g>
+<g transform="translate(1180,230) scale(5.2) scale(-1,1)" fill="#06050a" stroke="rgba(230,180,110,.28)" stroke-width=".5"><use href="#dragon"/></g>
+<path d="M-10,1160 L-10.0,503.9 L149.4,630.6 L339.2,573.9 L579.5,599.6 L755.0,597.6 L947.9,599.0 L1147.6,553.9 L1357.5,632.6 L1561.2,673.9 L1734.8,640.5 L1610,1160 Z" fill="#0b0807"/>
+<rect width="1600" height="1000" fill="#000" opacity=".25"/>
+</svg>

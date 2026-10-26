@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice"><defs>
+<filter id="l" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".42" numOctaves="3" seed="5" result="n"/>
+<feDiffuseLighting in="n" lighting-color="#cfc3a6" surfaceScale="1.6" result="d"><feDistantLight azimuth="50" elevation="58"/></feDiffuseLighting>
+<feColorMatrix in="d" type="matrix" values=".22 0 0 0 0  0 .2 0 0 0  0 0 .14 0 0  0 0 0 1 0"/>
+</filter>
+<radialGradient id="v" cx=".5" cy=".5" r=".75"><stop offset=".4" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".7"/></radialGradient></defs>
+<rect width="600" height="600" fill="#0e0d0b"/><rect width="600" height="600" filter="url(#l)" opacity=".9"/><rect width="600" height="600" fill="url(#v)"/></svg>

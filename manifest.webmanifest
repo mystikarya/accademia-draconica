@@ -1,0 +1,11 @@
+{
+  "name": "Accademia Draconica",
+  "short_name": "Draconica",
+  "description": "Il sentiero del cavaliere: un percorso di conoscenza, meditazione e simbolo.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0c0907",
+  "theme_color": "#0c0907",
+  "lang": "it",
+  "icons": [{ "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
